@@ -1,0 +1,42 @@
+1. 
+WRITE "masukan resultan gaya"
+READ "resultan gaya"
+SAVE "resultan gaya"
+WRITE "masukan masa benda"
+READ "masa benda"
+SAVE "masa benda"
+WRITE "masukan percepatan benda"
+READ "percepatan benda"
+SAVE "percepatan benda"
+COMPUTE "masa benda" multiply "percepatan benda"
+SAVE previous computation result
+SHOW the computational result
+
+2.
+WRITE "masukan tahun =  "
+READ "tahun"
+SAVE "tahun"
+IF tahun divide by 4 equal 0 AND tahun divide by 100 not equal 0 THEN
+WRITE "tahun kabisat" ELSE
+IF tahun divide by 4 equal zero AND tahun divide by 100 equal 0 AND tahun
+divide by 400 equal 0 THEN 
+WRITE "tahun kabisat" ELSE
+WRITE "tahun bukan kabisat"
+
+3.
+SAVE "jumlah = 20"
+WHILE jumlah > 0 DO
+jumlah--
+END WHILE 
+WRITE "jumlah pakaian mencukupi"
+
+4.
+SAVE "siswa = 0"
+FOR siswa = 40
+IF "siswa kuku panjang" THEN "hukum"
+ELSE "puji"
+siswa--
+END FOR
+
+
+
