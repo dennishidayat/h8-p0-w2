@@ -1,0 +1,18 @@
+function xo(str){
+  var counter1;
+  var counter2;
+  for (i = 0; i < str.length; i++){
+    if (str[i] === "x"){
+      counter1 += 1;
+    }
+    else if (str[i] === "o"){
+      counter2 += 1;
+    }
+    else{
+      console.log("inputan hanya berupa x atau o!");
+    }
+  }
+  return (counter1 === counter2);
+}
+
+console.log(xo("xoxoxxoxo"));
